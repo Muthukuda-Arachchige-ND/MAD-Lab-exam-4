@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Task Management</string>
+    <string name="task">Tasks</string>
+    <string name="UpdateTask">Edit task</string>
+</resources>
