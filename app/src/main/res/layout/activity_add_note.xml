@@ -8,6 +8,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
+    android:background="@drawable/wallpaper2"
     tools:context=".AddNoteActivity">
 
     <TextView
@@ -17,7 +18,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/poppins"
-        android:text="Add note."
+        android:text="Add task."
         android:textColor="@color/green"
         android:textSize="24sp" />
 
@@ -37,6 +38,7 @@
         android:hint="Enter the titile"
         android:padding="12dp"
         android:textSize="20sp"
+        android:textColorHint="@color/hint"
         android:layout_below="@id/addNoteHeading"
         android:background="@drawable/green_border"
         android:layout_marginTop="16dp"
@@ -51,6 +53,7 @@
         android:gravity="top"
         android:padding="12dp"
         android:textSize="18sp"
+        android:textColorHint="@color/hint"
         android:fontFamily="@font/poppins"
         android:background="@drawable/green_border"
         android:layout_below="@id/titleEditText"
